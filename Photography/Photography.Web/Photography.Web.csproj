@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Photography.Common\Photography.Common.csproj" />
+    <ProjectReference Include="..\Photography.Web.ViewModels\Photography.Web.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

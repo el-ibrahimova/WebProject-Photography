@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
-using Photography.Web.Models;
+using Photography.Web.ViewModels;
 using System.Diagnostics;
 
 namespace Photography.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+       private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -15,6 +15,8 @@ namespace Photography.Web.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Title"] = "Home Page";
+            ViewData["Message"] = "Welcome to the NIES Photography place";
             return View();
         }
 

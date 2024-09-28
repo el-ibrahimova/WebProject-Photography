@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photography.Web", "Photography.Web\Photography.Web.csproj", "{025ED944-50C4-4B37-B575-80362DED4D58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photography.Web.ViewModels", "Photography.Web.ViewModels\Photography.Web.ViewModels.csproj", "{E811AF9E-06C3-4D35-90F2-2E7FA5F05B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photography.Common", "Photography.Common\Photography.Common.csproj", "{9FA17E83-CDC1-48E5-AA5E-B451CEF4743B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{025ED944-50C4-4B37-B575-80362DED4D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025ED944-50C4-4B37-B575-80362DED4D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025ED944-50C4-4B37-B575-80362DED4D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E811AF9E-06C3-4D35-90F2-2E7FA5F05B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E811AF9E-06C3-4D35-90F2-2E7FA5F05B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E811AF9E-06C3-4D35-90F2-2E7FA5F05B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E811AF9E-06C3-4D35-90F2-2E7FA5F05B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA17E83-CDC1-48E5-AA5E-B451CEF4743B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA17E83-CDC1-48E5-AA5E-B451CEF4743B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA17E83-CDC1-48E5-AA5E-B451CEF4743B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA17E83-CDC1-48E5-AA5E-B451CEF4743B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
